@@ -1,7 +1,5 @@
-/* Import the Roboto font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
-/* Apply the font globally */
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #f4f4f9;
@@ -9,16 +7,14 @@ body {
   padding: 0;
 }
 
-/* Center the form on the page */
 .register-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  padding: 20px; /* Add padding for small screens */
+  padding: 20px;
 }
 
-/* Style the form */
 .register-form {
   background-color: #ffffff;
   padding: 30px;
@@ -30,12 +26,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* Form group to keep label and input together */
 .form-group {
   margin-bottom: 20px;
 }
 
-/* Style the labels */
 .form-group label {
   display: block;
   margin-bottom: 8px;
@@ -43,7 +37,6 @@ body {
   color: #333;
 }
 
-/* Style the input fields */
 .register-form input[type="text"],
 .register-form input[type="password"],
 .register-form input[type="file"] {
@@ -56,12 +49,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* Placeholder text style */
 .register-form input::placeholder {
   color: #aaa;
 }
 
-/* Style the button */
 .register-form button {
   width: 100%;
   background-color: #4caf50;
@@ -80,12 +71,11 @@ body {
   background-color: #45a049;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
   .register-form {
     padding: 20px;
     max-width: 100%;
-    box-shadow: none; /* Remove shadow on smaller screens for a cleaner look */
+    box-shadow: none; 
     border-radius: 0;
   }
 }

@@ -1,7 +1,5 @@
-/* Import the font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
-/* Apply the font globally */
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #f4f4f9;
@@ -9,7 +7,6 @@ body {
   padding: 0;
 }
 
-/* Center the form on the page */
 .login-container {
   display: flex;
   justify-content: center;
@@ -17,7 +14,6 @@ body {
   height: 100vh;
 }
 
-/* Style the form */
 .login-form {
   background-color: #ffffff;
   padding: 30px;
@@ -29,20 +25,16 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* Form group to keep label and input together */
 .form-group {
   margin-bottom: 20px;
 }
 
-/* Style the labels */
 .form-group label {
   display: block;
   margin-bottom: 8px;
   font-weight: 500;
   color: #333;
 }
-
-/* Style the input fields */
 .login-form input[type="text"],
 .login-form input[type="password"] {
   width: 100%;
@@ -54,7 +46,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* Style the button */
 .login-form button {
   width: 100%;
   background-color: #4caf50;
@@ -73,7 +64,6 @@ body {
   background-color: #45a049;
 }
 
-/* Style error message */
 .login-form p {
   color: red;
   font-size: 14px;
