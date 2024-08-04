@@ -1,0 +1,112 @@
+/* Import the Roboto font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Apply the font globally */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Center the form on the page */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px; /* Add padding for small screens */
+}
+
+/* Style the form */
+.register-form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Form group to keep label and input together */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Style the labels */
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Style the input fields */
+.register-form input[type="text"],
+.register-form input[type="password"],
+.register-form input[type="file"] {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Placeholder text style */
+.register-form input::placeholder {
+  color: #aaa;
+}
+
+/* Style the button */
+.register-form button {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.register-form button:hover {
+  background-color: #45a049;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .register-form {
+    padding: 20px;
+    max-width: 100%;
+    box-shadow: none; /* Remove shadow on smaller screens for a cleaner look */
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .register-form {
+    padding: 15px;
+  }
+
+  .register-form button {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .form-group label {
+    font-size: 14px;
+  }
+
+  .register-form input[type="text"],
+  .register-form input[type="password"],
+  .register-form input[type="file"] {
+    font-size: 14px;
+  }
+}
